@@ -6,7 +6,6 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
-
 @Table(name = "TB_SCRAPING")
 
 public class EstadoModel implements Serializable {

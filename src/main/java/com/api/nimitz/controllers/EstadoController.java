@@ -2,7 +2,6 @@ package com.api.nimitz.controllers;
 
 import com.api.nimitz.dtos.EstadoDto;
 import com.api.nimitz.models.EstadoModel;
-import com.api.nimitz.repositories.EstadoRepository;
 import com.api.nimitz.services.EstadoService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
@@ -16,6 +15,8 @@ import java.time.ZoneId;
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/estado")
+
+
 public class EstadoController {
 
     final EstadoService estadoService;
